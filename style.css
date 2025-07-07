@@ -14,6 +14,20 @@ margin: 0;
 padding: 0;
 }
 
+/* RESPONSIVIDADE TELAS PEQUENAS*/
+@media only screen and (max-width: 465px){
+    nav > ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    nav > ul > li{
+        width: 127px;
+        margin: 10px;
+    }
+}
+
 /* CORPO */
 
 body{
@@ -36,8 +50,6 @@ nav > ul{
     font-size: 1.1em;
     margin-right: 5px;
     margin-bottom: 5px;
-    margin-left: none;
-    
 }
 
 nav >ul >li{
